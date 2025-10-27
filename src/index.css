@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#tasklist::-webkit-scrollbar{
+        cursor: pointer;
+        height: 8px;
+        border-radius: 10px;
+        background-color: #fff;
+}
+#tasklist::-webkit-scrollbar-thumb{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(147, 147, 147);
+}
