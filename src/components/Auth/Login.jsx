@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
-const Login = () => {
+const Login = ({handleLogin}) => {
+    
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -21,6 +22,7 @@ const Login = () => {
        <div className=' border-2 border-emerald-200 p-15 rounded-3xl'>
             <form onSubmit={(e)=>{
                 submitHandler(e)
+                handleLogin(email,password)
                 
             }}
             className='flex flex-col items-center justify-center w-[22vw]  gap-5 '>
