@@ -8,6 +8,7 @@ body{
 
 #tasklist::-webkit-scrollbar{
         cursor: pointer;
+        width: 3px;
         height: 8px;
         border-radius: 10px;
         background-color: #fff;
@@ -17,3 +18,4 @@ body{
     border-radius: 10px;
     background-color: rgb(147, 147, 147);
 }
+
