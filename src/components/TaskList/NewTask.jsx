@@ -4,7 +4,7 @@ const NewTask = ({data}) => {
     console.log(data.taskTitle);
     
   return (
-       <div className='bg-pink-400 w-[35%] shrink-0 rounded-2xl p-6 h-full '>
+       <div className='bg-purple-400 w-[35%] shrink-0 rounded-2xl p-6 h-full '>
                     <div className='flex justify-between items-center '>
                         <h3 className='text-lg font-medium bg-green-500 rounded-xl px-4 py-1 '>{data.category}</h3>
                         <h4 className='text-lg font-medium'>{data.taskDate}</h4>
